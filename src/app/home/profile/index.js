@@ -1,6 +1,10 @@
 import React from 'react';
 import './profile.scss';
 import progilePic from '../../../assets/images/profile-pic.jpeg'
+import icon1 from '../../../assets/icons/mongoDB.svg'
+import icon2 from '../../../assets/icons/express-js.png'
+import icon3 from '../../../assets/icons/react.svg'
+import icon4 from '../../../assets/icons/node-js.svg'
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -15,6 +19,26 @@ export default function Profile() {
                     <div className="profile-photo">
                         <div className="photho-overflow">
                             <img src={progilePic} alt="profile-pic" />
+                        </div>
+                    </div>
+                    <div className="profile-icons">
+                        <div className="photho-overflow">
+                            <img src={icon1} alt="profile-pic" />
+                        </div>
+                    </div>
+                    <div className="profile-icons">
+                        <div className="photho-overflow">
+                            <img src={icon2} alt="profile-pic" />
+                        </div>
+                    </div>
+                    <div className="profile-icons">
+                        <div className="photho-overflow">
+                            <img src={icon3} alt="profile-pic" />
+                        </div>
+                    </div>
+                    <div className="profile-icons">
+                        <div className="photho-overflow">
+                            <img src={icon4} alt="profile-pic" />
                         </div>
                     </div>
                     <div className="intro">
