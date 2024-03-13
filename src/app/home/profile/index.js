@@ -21,22 +21,22 @@ export default function Profile() {
                             <img src={progilePic} alt="profile-pic" />
                         </div>
                     </div>
-                    <div className="profile-icons">
+                    <div className="profile-icons profile-icons1">
                         <div className="photho-overflow">
                             <img src={icon1} alt="profile-pic" />
                         </div>
                     </div>
-                    <div className="profile-icons">
+                    <div className="profile-icons profile-icons2">
                         <div className="photho-overflow">
                             <img src={icon2} alt="profile-pic" />
                         </div>
                     </div>
-                    <div className="profile-icons">
+                    <div className="profile-icons profile-icons3">
                         <div className="photho-overflow">
                             <img src={icon3} alt="profile-pic" />
                         </div>
                     </div>
-                    <div className="profile-icons">
+                    <div className="profile-icons profile-icons4">
                         <div className="photho-overflow">
                             <img src={icon4} alt="profile-pic" />
                         </div>
