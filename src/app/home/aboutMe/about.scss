@@ -7,14 +7,14 @@
         section {
             .heading {
                 width: fit-content;
-                border-bottom: 2px solid var(--theme-primary-pink-border-color);
+                border-bottom: 2px solid var(--theme-primary-blue-border-color);
                 margin: 0 auto;
 
                 h2 {
                     text-transform: capitalize;
                     font-size: 35px;
                     padding: 0 10px;
-                    color: var(--theme-primary-pink-text-color);
+                    color: var(--theme-primary-blue-text-color);
 
                     @media (max-width:576px) {
                         font-size: 25px;
