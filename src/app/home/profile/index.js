@@ -2,6 +2,7 @@ import React from 'react';
 import './profile.scss';
 import progilePic from '../../../assets/images/profile-pic.jpeg'
 import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Profile() {
     return (
@@ -25,7 +26,8 @@ export default function Profile() {
                         <p>MERN Stack Developer</p>
                     </div>
                     <div className="button-cta">
-                        <div className="git"><IoLogoGithub />git </div>
+                        <a href='https://www.linkedin.com/in/yash-babariya-a370b52a5/' rel="noreferrer" target='_blank' className="cta"><IoLogoGithub /><p>GitHub</p></a>
+                        <a href='https://github.com/yash-babariya' rel="noreferrer" target='_blank' className="cta"><FaLinkedin /><p>Linkdin</p></a>
                     </div>
                 </section>
             </div>

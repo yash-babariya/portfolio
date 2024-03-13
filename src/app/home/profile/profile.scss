@@ -164,8 +164,32 @@
             }
 
             .button-cta {
-                .git {
-                    border: 1px solid var(--theme-primary-green-border-color);
+                display: flex;
+                gap: 20px;
+                width: fit-content;
+                margin: 30px auto 0 auto;
+
+                .cta {
+                    cursor: pointer;
+                    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.13);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    color: var(--theme-primary-white-color);
+                    border: 2px solid var(--theme-primary-pink-dark-border-color);
+                    font-size: 20px;
+                    border-radius: 8px;
+                    transition: .5s ease-in-out;
+
+                    &:hover {
+                        border: 2px solid var(--theme-primary-white-border-color);
+                        transition: .5s ease-in-out;
+                    }
+
+                    p {
+                        margin-left: 5px;
+                    }
                 }
 
             }
