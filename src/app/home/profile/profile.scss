@@ -46,7 +46,6 @@
                 }
 
                 .photho-overflow {
-                    // max-width: 340px;
                     overflow: hidden;
                     height: 454px;
                     border-radius: 22px;
@@ -145,7 +144,7 @@
                     color: var(--theme-dark-purple-text-color);
 
                     @media (max-width:576px) {
-                        font-size: 20px;
+                        font-size: 30px;
                     }
                 }
 
