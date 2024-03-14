@@ -65,9 +65,10 @@ function App() {
   //   };
   // }, []);
   return (
-    <div>
-      {/* <style>
-        {`
+    <>
+      <div>
+        {/* <style>
+    {`
 		#cursor {
       position: absolute;
 			background-color: ${isClicking ? 'var(--theme-primary-pink-background-color)' : 'var(--theme-primary-pink-background-color)'};
@@ -88,7 +89,7 @@ function App() {
 			width: 30px;
 			height: 30px;
 			background-color: transparent;
-			border: 3px solid ${buttonHovered ? 'var(--theme-primary-pink-background-color)' : 'var(--theme-primary-blue-text-color)'};
+			border: 3px solid ${buttonHovered ? 'var(--theme-primary-pink-background-color)' : 'var(--theme-sky-blue-border-color)'};
 			border-radius: 50%;
 			transform: translate(-50%, -50%);
 			pointer-events: none;
@@ -99,12 +100,14 @@ function App() {
       }
 		}
     `}
-      </style>
-      <div id="cursor" style={{ left: `${cursorX}px`, top: `${cursorY}px` }}></div>
-      <div id="cursor-border"></div> */
-      }
-      <RouterProvider router={router} />
-    </div>
+    </style>
+    <div id="cursor" style={{ left: `${cursorX}px`, top: `${cursorY}px` }}></div>
+  <div id="cursor-border"></div> */}
+      </div>
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    </>
   );
 }
 
