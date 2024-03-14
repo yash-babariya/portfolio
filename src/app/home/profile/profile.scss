@@ -3,7 +3,6 @@
 .profile {
     .container {
         section {
-            position: relative;
 
             .headeing {
                 width: fit-content;
@@ -25,6 +24,10 @@
                     }
                 }
 
+            }
+
+            .photos {
+                position: relative;
             }
 
             .profile-photo {
@@ -73,25 +76,25 @@
 
             .profile-icons1 {
                 position: absolute;
-                top: 300px;
+                top: 200px;
                 left: -20px;
             }
 
             .profile-icons2 {
                 position: absolute;
-                top: 260px;
+                top: 160px;
                 left: 180px;
             }
 
             .profile-icons3 {
                 position: absolute;
-                top: 260px;
+                top: 160px;
                 right: 180px;
             }
 
             .profile-icons4 {
                 position: absolute;
-                top: 300px;
+                top: 200px;
                 right: 0;
             }
 
@@ -131,6 +134,7 @@
                 overflow: hidden;
                 position: relative;
                 border-radius: 20px;
+                background-color: var(--theme-primary-white-color);
                 box-shadow: 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3), inset 0 -2px 6px 0 rgba(10, 37, 64, .35);
 
                 .typing {
@@ -165,6 +169,7 @@
             }
 
             .button-cta {
+                position: relative;
                 display: flex;
                 gap: 20px;
                 width: fit-content;

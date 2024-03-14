@@ -16,29 +16,31 @@ export default function Profile() {
                     <div className="headeing">
                         <h1>Portfolio</h1>
                     </div>
-                    <div className="profile-photo">
-                        <div className="photho-overflow">
-                            <img src={progilePic} alt="profile-pic" />
+                    <div className="photos">
+                        <div className="profile-photo">
+                            <div className="photho-overflow">
+                                <img src={progilePic} alt="profile-pic" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="profile-icons profile-icons1">
-                        <div className="photho-overflow">
-                            <img src={icon1} alt="profile-pic" />
+                        <div className="profile-icons profile-icons1">
+                            <div className="photho-overflow">
+                                <img src={icon1} alt="profile-pic" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="profile-icons profile-icons2">
-                        <div className="photho-overflow">
-                            <img src={icon2} alt="profile-pic" />
+                        <div className="profile-icons profile-icons2">
+                            <div className="photho-overflow">
+                                <img src={icon2} alt="profile-pic" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="profile-icons profile-icons3">
-                        <div className="photho-overflow">
-                            <img src={icon3} alt="profile-pic" />
+                        <div className="profile-icons profile-icons3">
+                            <div className="photho-overflow">
+                                <img src={icon3} alt="profile-pic" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="profile-icons profile-icons4">
-                        <div className="photho-overflow">
-                            <img src={icon4} alt="profile-pic" />
+                        <div className="profile-icons profile-icons4">
+                            <div className="photho-overflow">
+                                <img src={icon4} alt="profile-pic" />
+                            </div>
                         </div>
                     </div>
                     <div className="intro">
