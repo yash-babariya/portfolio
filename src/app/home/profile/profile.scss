@@ -141,7 +141,7 @@
                     text-transform: uppercase;
                     letter-spacing: 3px;
                     font-size: 35px;
-                    color: var(--theme-dark-purple-text-color);
+                    color: var(--theme-sky-blue-text-color);
 
                     @media (max-width:576px) {
                         font-size: 30px;
@@ -181,7 +181,7 @@
                     justify-content: center;
                     align-items: center;
                     padding: 10px;
-                    border: 2px solid var(--theme-dark-text-color);
+                    border: 2px solid var(--theme-sky-blue-border-color);
                     font-size: 20px;
                     border-radius: 8px;
                     transition: .5s ease-in-out;
@@ -189,6 +189,7 @@
                     color: var(--theme-dark-text-color);
 
                     &:hover {
+                        border: 2px solid var(--theme-dark-text-color);
                         color: var(--theme-primary-white-color);
                         transition: .5s ease-in-out;
                         background-color: var(--theme-dark-backgroud-color);

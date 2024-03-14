@@ -6,6 +6,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Baskervville", serif;
+    cursor: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 h1,
