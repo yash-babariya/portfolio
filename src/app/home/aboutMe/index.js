@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.scss';
+import { SiPolkadot } from "react-icons/si";
 
 export default function AboutMe() {
     return (
@@ -10,9 +11,9 @@ export default function AboutMe() {
                         <h2>About me</h2>
                     </div>
                     <div className="details-heading">
-                        <p>Entry-Level React-Devloper</p>
-                        <p>Frontend Enthusiast</p>
-                        <p>Seeking Opportunities</p>
+                        <p><SiPolkadot className='dot-icon' />Entry-Level React-Devloper</p>
+                        <p><SiPolkadot className='dot-icon' />Frontend Enthusiast</p>
+                        <p><SiPolkadot className='dot-icon' />Seeking Opportunities</p>
                     </div>
                     <div className="details">
                         <p>
