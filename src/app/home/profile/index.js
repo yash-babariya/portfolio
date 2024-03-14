@@ -14,7 +14,15 @@ export default function Profile() {
             <div className="container">
                 <section>
                     <div className="headeing">
-                        <h1>Portfolio</h1>
+                        <h1>Hello I'm</h1>
+                    </div>
+                    <div className="intro">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                        <h2 className="typing">yash babariya</h2>
+                        <p>MERN Stack Developer</p>
                     </div>
                     <div className="photos">
                         <div className="profile-photo">
@@ -42,14 +50,6 @@ export default function Profile() {
                                 <img src={icon4} alt="profile-pic" />
                             </div>
                         </div>
-                    </div>
-                    <div className="intro">
-                        <span> </span>
-                        <span> </span>
-                        <span> </span>
-                        <span> </span>
-                        <h2 className="typing">yash babariya</h2>
-                        <p>MERN Stack Developer</p>
                     </div>
                     <div className="button-cta">
                         <a href='https://github.com/yash-babariya' rel="noreferrer" target='_blank' className="cta"><IoLogoGithub /><p>GitHub</p></a>

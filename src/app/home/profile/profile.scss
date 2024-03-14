@@ -8,19 +8,15 @@
                 width: fit-content;
                 margin: 60px auto 0 auto;
                 padding: 0 20px;
-                border-bottom: 2px solid var(--theme-primary-blue-border-color);
 
                 h1 {
-                    font-size: 90px;
+                    font-family: "Nunito", sans-serif;
+                    font-size: 30px;
                     font-weight: 600;
-                    color: var(--theme-primary-blue-text-color);
+                    color: var(--theme-dark-text-color);
 
                     @media (max-width:768px) {
-                        font-size: 60px;
-                    }
-
-                    @media (max-width:576px) {
-                        font-size: 50px;
+                        font-size: 20px;
                     }
                 }
 
@@ -128,7 +124,7 @@
             .intro {
                 cursor: pointer;
                 max-width: fit-content;
-                margin: 30px auto 0 auto;
+                margin: 10px auto 0 auto;
                 padding: 15px 20px;
                 transition: .5s ease-in-out;
                 overflow: hidden;
@@ -140,7 +136,6 @@
                 .typing {
                     margin: 0 auto;
                     width: fit-content;
-                    font-weight: 300;
                     text-align: center;
                     text-transform: uppercase;
                     letter-spacing: 3px;
@@ -150,19 +145,25 @@
                     @media (max-width:576px) {
                         font-size: 30px;
                     }
+
+                    @media (max-width:350px) {
+                        font-size: 20px;
+                    }
                 }
 
                 p {
-                    font-family: "Nunito", sans-serif;
-                    font-weight: 700;
+                    font-weight: 600;
                     text-align: center;
                     text-transform: uppercase;
                     letter-spacing: 5px;
                     font-size: 15px;
-
                     color: var(--theme-dark-backgroud-color);
 
                     @media (max-width:576px) {
+                        font-size: 12px;
+                    }
+
+                    @media (max-width:350px) {
                         font-size: 8px;
                     }
                 }
@@ -186,7 +187,6 @@
                     justify-content: center;
                     align-items: center;
                     padding: 10px;
-                    border: 2px solid var(--theme-sky-blue-border-color);
                     font-size: 20px;
                     border-radius: 8px;
                     transition: .5s ease-in-out;
@@ -194,7 +194,6 @@
                     color: var(--theme-dark-text-color);
 
                     &:hover {
-                        border: 2px solid var(--theme-dark-text-color);
                         color: var(--theme-primary-white-color);
                         transition: .5s ease-in-out;
                         background-color: var(--theme-dark-backgroud-color);
