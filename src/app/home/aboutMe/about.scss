@@ -1,10 +1,10 @@
 @import '../../../styles/index.scss';
 
 .about-me {
-    padding: 80px 0;
+    padding: 80px 0 0 0;
 
     @media (max-width:600px) {
-        padding: 60px 0;
+        padding: 60px 0 0 0;
     }
 
     .container {
@@ -14,14 +14,7 @@
                 margin: 0 auto;
 
                 h2 {
-                    font-family: "Nunito", sans-serif;
-                    font-size: 30px;
-                    font-weight: 600;
-                    color: var(--theme-dark-text-color);
-
-                    @media (max-width:768px) {
-                        font-size: 30px;
-                    }
+                    @include heading
                 }
             }
 
@@ -32,7 +25,7 @@
                 margin-top: 30px;
                 justify-content: center;
 
-                @media (max-width:800px) {
+                @media (max-width:881px) {
                     flex-direction: column;
                 }
 
@@ -56,7 +49,7 @@
                         color: var(--theme-sky-blue-text-color);
                     }
 
-                    @media (max-width:800px) {
+                    @media (max-width:881px) {
                         font-size: 14px;
                         width: 100%;
                         padding: 20px 30px;
@@ -82,7 +75,7 @@
                 padding: 20px;
                 max-width: 900px;
                 border-radius: 20px;
-                background-color: var(--theme-sky-blue-background-color);
+                background-color: var(--theme-primary-white-color);
                 color: var(--theme-dark-text-color);
                 box-shadow: 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3), inset 0 -2px 6px 0 rgba(10, 37, 64, .35);
 

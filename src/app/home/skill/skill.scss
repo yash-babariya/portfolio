@@ -1,0 +1,65 @@
+@import '../../../styles/index.scss';
+
+.skill {
+    padding: 80px 0 80px 0;
+
+    @media (max-width:600px) {
+        padding: 60px 0 0 0;
+    }
+
+    .container {
+        section {
+            .heading {
+                width: fit-content;
+                margin: 0 auto 40px auto;
+
+                h2 {
+                    @include heading;
+                }
+            }
+
+            .skill-box {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background-image: url("../../../assets/images/skill-bg.jpg");
+                background-position: center;
+                background-size: cover;
+                gap: 40px;
+                padding: 60px;
+                border-radius: 20px;
+
+                @media (max-width:881px) {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+
+                .box {
+                    background-color: #ddceff00;
+                    backdrop-filter: blur(10px);
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 1px solid var(--theme-primary-white-border-color);
+                    text-align: center;
+
+                    h2 {
+                        color: var(--theme-primary-white-text-color);
+                        padding: 20px 0;
+                    }
+
+                    p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        color: var(--theme-primary-white-text-color);
+                        padding: 10px 0;
+
+                        .icon {
+                            font-size: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

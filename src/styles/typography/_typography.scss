@@ -1,0 +1,9 @@
+@mixin heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--theme-dark-text-color);
+
+    @media (max-width:768px) {
+        font-size: 30px;
+    }
+}
