@@ -53,7 +53,7 @@ export default function Profile() {
                     </div>
                     <div className="button-cta">
                         <a href='https://github.com/yash-babariya' rel="noreferrer" target='_blank' className="cta"><IoLogoGithub /><p>GitHub</p></a>
-                        <a href='https://www.linkedin.com/in/yash-babariya-a370b52a5/' rel="noreferrer" target='_blank' className="cta"><FaLinkedin /><p>Linkdin</p></a>
+                        <a href='https://www.linkedin.com/in/yash-babariya-a370b52a5/' rel="noreferrer" target='_blank' className="cta"><FaLinkedin /><p>Linkedin</p></a>
                     </div>
                 </section>
             </div>
